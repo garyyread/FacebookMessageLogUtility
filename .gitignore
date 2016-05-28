@@ -17,6 +17,10 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# My files
+chat-logs/
+*.class
+
 # =========================
 # Operating System Files
 # =========================

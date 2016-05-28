@@ -1,0 +1,11 @@
+##facebook-messenger-copy-paste-regex
+^[A-Z]{3} \d\d:\d\d$			## SAT 15:41
+^STRVALUE$ 						## STRVALUE\r\n
+^\d\d/\d\d/\d\d\d\d \d\d:\d\d$	## 16/11/2015 15:05
+^(\d|\d\d) [A-Z]+ \d\d:\d\d$	## 6 JANUARY 11:53
+
+^[A-Z]{3} \d\d:\d\d$|^STRVALUE$|^\d\d/\d\d/\d\d\d\d \d\d:\d\d$|^(\d|\d\d) [A-Z]+ \d\d:\d\d$		##Match all the above
+
+#whatsapp-web-copy-paste-regex
+^\[.*?\].([A-Z 0-9 +]).*?:		## [11:52, 2/21/2016] Aaron Alexander:
+								## [12:03, 2/21/2016] +44 7528 145972:
